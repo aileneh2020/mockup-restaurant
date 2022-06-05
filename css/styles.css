@@ -101,7 +101,6 @@ header {
 #about {
     background-color: #2F4858;
     color: #F7F7F8;
-    /* padding: 60px 20px; */
 }
 
 .card-container {
@@ -127,7 +126,6 @@ header {
 
 #menu {
     background-color: #181818;
-    /* padding: 60px 20px; */
 }
 
 #menu-container {
@@ -166,7 +164,6 @@ header {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    /* padding: 60px 20px; */
 }
 
 #contact h2 {
