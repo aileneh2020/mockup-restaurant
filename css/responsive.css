@@ -1,0 +1,148 @@
+@media screen and (max-width: 451px) {
+  body {
+    min-width: 300px;
+  }
+
+  .font-large {
+    font-size: 22px;
+  }
+
+  .card {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .menu-item {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 649px) {
+  .hamburger {
+    display: block;
+  }
+
+  /* turns hamburger to "X" when clicked */
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav {
+    position: fixed;
+    left: 200%;
+    top: -100%;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+    background-color: #ffffffec;
+    z-index: 100 !important;
+  }
+
+  .nav.active {
+    position: absolute;
+    left: 0;
+    top: 70px;
+  }
+
+  .nav-item {
+    margin: 24px 0;
+  }
+
+  #about {
+    padding: 60px 40px;
+  }
+
+  .card {
+    width: 70%;
+    min-width: 260px;
+    margin: 20px 5px;
+  }
+
+  #menu {
+    padding: 60px 40px;
+  }
+
+  #contact {
+    padding: 60px 25%;
+  }
+
+  #contact div {
+    margin: 20px 20px 0;
+  }
+
+  #contact table {
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+
+@media screen and (min-width: 650px) {
+  header {
+    height: 130px;
+  }
+
+  #logo {
+    padding: 0 40px;
+  }
+
+  #logo img {
+    height: 120px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  .hero-image {
+    background-position: center;
+    background-size: cover;
+  }
+
+  #about {
+    padding: 100px 50px;
+  }
+
+  .card {
+    width: 30%;
+    min-width: 240px;
+    margin: 20px 2%;
+  }
+
+  #menu {
+    padding: 100px 50px;
+  }
+
+  #contact {
+    justify-content: space-evenly;
+    padding: 100px 20px 100px 0px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 15%;
+  }
+      
+  .section-intro {
+    padding: 0 15% 40px;
+  }
+
+  #contact {
+    padding: 100px 0 50px;
+  }
+}

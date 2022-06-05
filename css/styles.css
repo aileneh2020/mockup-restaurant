@@ -1,0 +1,206 @@
+body, html {
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #F7F7F8;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.font-large {
+    font-size: 24px;
+}
+
+.light-font {
+    color: #F7F7F8;
+}
+
+.section-intro {
+    padding: 0 5% 20px;
+    font-family: 'Comic Neue', cursive;
+}
+
+/*-------------- HEADER SECTION --------------*/
+
+header {
+    height: 80px;
+    background-color: #FEFBFB;
+    padding: 5px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    padding: 0 20px;
+}
+
+#logo img {
+    height: 40px;
+}
+
+.nav {
+    background-color: #FEFBFB;
+    padding: 0 20px;
+}
+
+.nav-item {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0 16px;
+}
+
+.nav-item:hover {
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #58181f;
+    font-size: 0.9em;
+}
+
+.nav-link:hover {
+    color: #bd6513;
+  }
+
+.hamburger {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #58181f;
+}
+
+/*-------------- HERO IMAGE --------------*/
+
+.hero-image {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/18/07/bistro-2594762_960_720.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 70% 1%;
+    background-size: auto;
+    position: relative;
+}
+
+/*-------------- ABOUT SECTION --------------*/
+
+#about {
+    background-color: #2F4858;
+    color: #F7F7F8;
+    /* padding: 60px 20px; */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.card {
+    padding: 10px;
+    font-size: 0.92em;
+    text-align: center;
+}
+
+.profile-pic {
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*-------------- MENU SECTION --------------*/
+
+#menu {
+    background-color: #181818;
+    /* padding: 60px 20px; */
+}
+
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 10px 0;
+}
+
+.menu-item {
+    background-color: #F7F7F8;
+    max-width: 300px;
+    margin: 20px;
+    font-size: .9em;
+}
+
+.menu-item img {
+    width: 300px;
+    height: 300px;
+}
+
+.menu-text {
+    padding: 15px;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------------- CONTACT SECTION --------------*/
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    /* padding: 60px 20px; */
+}
+
+#contact h2 {
+    margin: 0;
+}
+
+#contact div {
+    min-width: 200px;
+}
+
+#contact img {
+    max-height: 110px;
+}
+
+.contact-address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+td {
+    padding: 0 4px;
+}
+
+/*-------------- SOCIAL FOOTER --------------*/
+
+.social-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    padding: 20px;
+}
