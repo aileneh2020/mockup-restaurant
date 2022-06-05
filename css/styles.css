@@ -28,7 +28,7 @@ body, html {
 header {
     height: 80px;
     background-color: #FEFBFB;
-    padding: 5px 0;
+    padding: 5px 0 0;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ header {
 }
 
 #logo img {
-    height: 40px;
+    height: 46px;
 }
 
 .nav {
@@ -92,7 +92,7 @@ header {
     height: 80vh;
     background-repeat: no-repeat;
     background-position: 70% 1%;
-    background-size: auto;
+    background-size: cover;
     position: relative;
 }
 
