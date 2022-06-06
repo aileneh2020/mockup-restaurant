@@ -113,7 +113,7 @@ header {
 
 .card {
     padding: 10px;
-    font-size: 0.92em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ header {
     background-color: #F7F7F8;
     max-width: 300px;
     margin: 20px;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .menu-item img {
