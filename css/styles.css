@@ -23,6 +23,27 @@ body, html {
     font-family: 'Comic Neue', cursive;
 }
 
+#scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 101;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #00000060;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 15px 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#scroll-top:hover {
+    background-color: #00000090;
+}
+
 /*-------------- HEADER SECTION --------------*/
 
 header {
